@@ -35,29 +35,29 @@ def get_livros():
 
 desenhosCartoonNetwork = [
     {
-        id: 1,
-        nome: "Hora de Aventura",
-        anoLancamento: 2010
+        "id": 1,
+        "nome": "Hora de Aventura",
+        "anoLancamento": 2010
     },
     {
-        id: 2,
-        nome: "Steven Universo",
-        anoLancamento: 2013
+        "id": 2,
+        "nome": "Steven Universo",
+        "anoLancamento": 2013
     },
     {
-        id: 3,
-        nome: "O Incrível Mundo de Gumball",
-        anoLancamento: 2011
+        "id": 3,
+        "nome": "O Incrível Mundo de Gumball",
+        "anoLancamento": 2011
     },
     {
-        id: 4,
-        nome: "Apenas um Show",
-        anoLancamento: 2010
+        "id": 4,
+        "nome": "Apenas um Show",
+        "anoLancamento": 2010
     },
     {
-        id: 5,
-        nome: "As Meninas Superpoderosas",
-        anoLancamento: 1998
+        "id": 5,
+        "nome": "As Meninas Superpoderosas",
+        "anoLancamento": 1998
     }
 ];
 @app.route('/desenhos')
