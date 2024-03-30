@@ -4,7 +4,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-@app.route('/')
+
 livros = [
     {
         "id": 0,
@@ -28,11 +28,11 @@ livros = [
     },
 ]
 
-
+@app.route('/')
 def get_livros():
     return jsonify(livros)
 
-@app.route('/desenhos')
+
 desenhosCartoonNetwork = [
     {
         id: 1,
@@ -60,6 +60,6 @@ desenhosCartoonNetwork = [
         anoLancamento: 1998
     }
 ];
-
+@app.route('/desenhos')
 def get_desenhos():
     return jsonify(desenhosCartoonNetwork)
