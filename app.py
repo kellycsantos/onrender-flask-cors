@@ -29,5 +29,3 @@ livros = [
 @app.route('/')
 def get_livros():
     return jsonify(livros)
-
-app.run(port=5000, host='localhost', debug=True)
